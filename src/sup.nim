@@ -1,7 +1,6 @@
 import
   nanoid,
   os,
-  ospaths,
   osproc,
   strformat,
   parsecfg
