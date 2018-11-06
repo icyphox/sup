@@ -10,7 +10,8 @@ or just download the binary from the Releases page.
 
 ```ini
 hostname: 139.59.95.34  # can be the hostname from your ssh config too
-remotepath: /home/gaben/steam
+remotepath: /var/www/uploads
+url: "https://x.ph0x.me"
 ```
 
 And then just run `sup <file>`.
@@ -18,12 +19,12 @@ And then just run `sup <file>`.
 ## Example
 ```console
 $ sup ~/key.asc
-key.asc                                            100% 2716   290.4KB/s   00:00    
-done! file is at emerald:/home/nerdypepper/icywww/stuff/1~8i~.asc
+key.asc                                            100% 2716   637.3KB/s   00:00    
+done! file is at https://x.ph0x.me/eMUif.asc
 
 $ sup ~/.zshrc
-.zshrc                                             100% 1157   173.9KB/s   00:00    
-done! file is at emerald:/home/nerdypepper/icywww/stuff/k0GgR
+.zshrc                                             100% 1157   206.0KB/s   00:00    
+done! file is at https://x.ph0x.me/yz9Dl
 ```
 
 See? That was easy.
