@@ -14,3 +14,16 @@ remotepath: /home/gaben/steam
 ```
 
 And then just run `sup <file>`.
+
+## Example
+```console
+$ sup ~/key.asc
+key.asc                                            100% 2716   290.4KB/s   00:00    
+done! file is at emerald:/home/nerdypepper/icywww/stuff/1~8i~.asc
+
+$ sup ~/.zshrc
+.zshrc                                             100% 1157   173.9KB/s   00:00    
+done! file is at emerald:/home/nerdypepper/icywww/stuff/k0GgR
+```
+
+See? That was easy.
