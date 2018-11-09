@@ -20,11 +20,11 @@ And then just run `sup <file>`.
 ```console
 $ sup ~/key.asc
 key.asc                                            100% 2716   637.3KB/s   00:00    
-done! file is at https://x.ph0x.me/eMUif.asc
+done! file is at https://x.ph0x.me/eMUif.asc [copied to clipboard]
 
 $ sup ~/.zshrc
 .zshrc                                             100% 1157   206.0KB/s   00:00    
-done! file is at https://x.ph0x.me/yz9Dl
+done! file is at https://x.ph0x.me/yz9Dl [copied to clipboard]
 ```
 
 See? That was easy.
