@@ -23,7 +23,8 @@ try:
   var (dir, f, ext) = splitFile(file)
   let cmd = fmt"scp {file} {host}:{path}/{name}{ext}"
   discard execCmd(cmd)
-  echo(fmt"done! file is at {url}/{name}{ext}")
+  discard execCmd(fmt"echo {url}/{name}{ext} | xclip -selection clipboard")
+  echo(fmt"done! file is at {url}/{name}{ext} [copied to clipboard]")
 except IOError:
   echo("error: config file not found")
   quit(0)
